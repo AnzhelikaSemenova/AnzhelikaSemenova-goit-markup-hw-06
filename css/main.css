@@ -265,3 +265,23 @@ ul {
 .basement-social:hover svg {
   fill: var(--primary-bg-color);
 }
+/*Форма футера*/
+.footer-form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-field input {
+  margin: 0;
+  padding: 14px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: var(--moz-decoration-color);
+  margin-right: 12px;
+}
+.footer-field label {
+}
+.footer-box {
+  display: block;
+  margin-left: 93px;
+}
