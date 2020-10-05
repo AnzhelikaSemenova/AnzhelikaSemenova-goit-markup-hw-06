@@ -271,17 +271,49 @@ ul {
   align-items: center;
 }
 
-.footer-field input {
-  margin: 0;
-  padding: 14px 15px;
+.footer-field .foot-decoration {
+  display: flex;
+  width: 360px;
+  height: 50px;
+  margin-right: 10px;
+  padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--moz-decoration-color);
-  margin-right: 12px;
-}
-.footer-field label {
+  align-items: center;
+  background-color: transparent;
 }
 .footer-box {
   display: block;
   margin-left: 93px;
+}
+.footer-field ::placeholder {
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer-telegram {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  margin-left: 10px;
+}
+/* Кнопка внутри модального окна*/
+.footer-submit {
+  display: inline-flex;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87px;
+  letter-spacing: 0.06em;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
