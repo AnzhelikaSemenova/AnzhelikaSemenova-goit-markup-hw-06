@@ -459,20 +459,35 @@
           </svg>
         </button>
         <h3 class="modal-heading">Оставьте свои данные, мы вам перезвоним</h3>
-        <form class="modal-form">
+        <form class="modal-form" autocomplete="off">
           <div class="form-field">
             <label for="name">Имя</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" class="input" />
+            <svg class="footer-info">
+              <use href="./images/symbol-defs3.svg#unior"></use>
+            </svg>
           </div>
 
           <div class="form-field">
             <label for="tel">Tелефон</label>
-            <input type="tel" name="tel" id="tel" />
+            <input type="tel" name="tel" id="tel" class="input" />
+            <svg class="footer-info">
+              <use href="./images/symbol-defs3.svg#telephone"></use>
+            </svg>
           </div>
 
           <div class="form-field">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input"
+              autocomplete="none"
+            />
+            <svg class="footer-info">
+              <use href="./images/symbol-defs3.svg#message-2"></use>
+            </svg>
           </div>
 
           <div class="comment-field">
