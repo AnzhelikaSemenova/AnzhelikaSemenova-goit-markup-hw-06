@@ -263,11 +263,7 @@ textarea {
 }
 .checkbox:checked + span::before {
   background-color: var(--accent-color);
-}
-.checkbox:checked + .checkbox-label::before {
-  border: 2px solid var(--accent-color);
-  border-radius: 4px;
-  background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 .visually-hidden {
   position: absolute;
