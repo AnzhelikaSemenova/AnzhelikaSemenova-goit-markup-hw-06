@@ -245,6 +245,29 @@ textarea {
   fill: var(--accent-color);
 }
 
+.checkbox-label span::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 3px;
+  border: 2px solid var(--logo-color);
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.checkbox:checked + span::before {
+  background-color: var(--accent-color);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* Секция под героем без заголовка*/
 .decoration-icon {
   background-color: var(--animation-direction);
