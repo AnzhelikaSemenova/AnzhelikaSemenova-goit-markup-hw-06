@@ -145,6 +145,7 @@ ul {
 .footer-nav .link:hover,
 .footer-nav .link:focus {
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-nav .link {
   display: flex;
@@ -238,10 +239,11 @@ ul {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(19, 16, 16, 0.1);
   color: var(--primary-bg-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer-icon {
   width: 20px;
   height: 20px;
@@ -288,6 +290,12 @@ ul {
   margin-left: 93px;
 }
 .footer-field ::placeholder {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer-field input {
+  color: var(--primary-bg-color);
   font-size: 16px;
   line-height: 20px;
 }
